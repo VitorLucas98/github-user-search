@@ -1,27 +1,23 @@
 .search-container{
-    width: 1251px;
-    height: 270px;
+    margin-top: 54px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.search-content-1{
     background: #E6F7FF;
     border-radius: 16px;
-    margin-top: 54px;
-    margin-left: 90px;
-    margin-right: 100px;
-}
-.search-content{
-    margin-left: 94px ;
-}
-.search-title{
     padding-top: 66px;
-    margin-right: 655px;
-    font-weight: 500;
+    padding-left: 95px;
+}
+.text-title{
     font-size: 38px;
     line-height: 46px;
     color: #262626;
 }
-.form-search{
-    margin-top: 12px;
-}
+
 .input-search{
+    margin-top: 15px;
     background: #FFFFFF;
     border: 1px solid #D9D9D9;
     box-sizing: border-box;
@@ -34,10 +30,98 @@
     display: flex;
     align-items: center;
 }
+
 ::-webkit-input-placeholder{
     color: #BFBFBF;
 }
-.btn-form{
-    margin-top: 24px;
-    margin-bottom: 42px;;
+
+.btn-encontrar{
+    margin-top: 32px;
+    padding-bottom: 50px;
+
 }
+
+.search-content-2{
+    display: flex;
+    margin-top: 54px;
+    background: #F5F5F5;
+    border-radius: 8px;
+    margin-bottom: 73px;
+}
+
+.img-search{
+    width: 284px;
+    height: 280px;
+    padding-top: 23px;
+    padding-left: 30px;
+}
+.btn-search{
+    padding-top: 17px;
+    padding-left: 30px;
+    padding-bottom: 27px;
+}
+.search-content-info-2{
+    margin-left: 44px;
+    margin-top: 24px;
+}
+.search-content-info-1{
+    display: block;
+}
+
+.search-info-element{
+    margin-right: 8px;
+    padding: 1px 14px;
+    color: #595959;
+    font-size: 12px;
+    line-height: 20px;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.table-info-container{
+    margin-top: 12px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 787px;
+}
+
+.table-info-title{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #1890FF;
+}
+li {
+    font-weight: bold;
+    list-style-type: none;
+    margin-bottom: 5px;
+    padding: 8px 35px 3px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #737373;
+    span{
+        font-weight: normal;
+    }
+}
+li:last-child {
+    margin-bottom: 20px;
+}
+
